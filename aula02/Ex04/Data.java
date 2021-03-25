@@ -47,7 +47,7 @@ public class Data {
   }
 
   /** Devolve o mes da data por extenso. */
-  public static final String[] nomesMes = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outobro", "Novembro", "Dezembro"};
+  public static final String[] nomesMes = {"Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"};
   public String mesExtenso() {
     return nomesMes[mes-1];
   }
